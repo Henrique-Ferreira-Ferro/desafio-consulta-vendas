@@ -14,6 +14,7 @@ import javax.persistence.Table;
 @Table(name = "tb_sales")
 public class Sale {
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
